@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AutoLayoutAnimationVC : UIViewController
-
+@property (strong,nonatomic) CALayer *myLayer;
 @end
