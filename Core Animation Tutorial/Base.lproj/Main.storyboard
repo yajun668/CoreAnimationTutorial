@@ -315,10 +315,10 @@
             </objects>
             <point key="canvasLocation" x="1236" y="399"/>
         </scene>
-        <!--View Controller-->
+        <!--Snow Aniamtion-->
         <scene sceneID="5hc-Sj-Z2l">
             <objects>
-                <viewController id="avT-iq-WY7" sceneMemberID="viewController">
+                <viewController id="avT-iq-WY7" customClass="SnowAniamtionVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dCV-ey-0Qa"/>
                         <viewControllerLayoutGuide type="bottom" id="gOA-7N-kIm"/>
@@ -335,7 +335,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="azN-Ry-MbR"/>
+                    <navigationItem key="navigationItem" title="Snow Aniamtion" id="azN-Ry-MbR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcd-JE-Fbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

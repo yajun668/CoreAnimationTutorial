@@ -23,6 +23,9 @@
 		E624A6D41A2FD228001265E7 /* Great Wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E624A6D31A2FD228001265E7 /* Great Wall.jpg */; };
 		E624A6D61A2FD306001265E7 /* Great Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = E624A6D51A2FD306001265E7 /* Great Wall.png */; };
 		E624A6D91A3007A8001265E7 /* CAKeyframeAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E624A6D81A3007A8001265E7 /* CAKeyframeAnimationVC.m */; };
+		E634C9E71A30F79C00BC1589 /* SnowAniamtionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E634C9E61A30F79C00BC1589 /* SnowAniamtionVC.m */; };
+		E634C9EA1A30F92D00BC1589 /* DazFire.png in Resources */ = {isa = PBXBuildFile; fileRef = E634C9E91A30F92D00BC1589 /* DazFire.png */; };
+		E634C9EC1A30F93500BC1589 /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = E634C9EB1A30F93500BC1589 /* DazSmoke.png */; };
 		E6A4138F1A2E2A96009E0333 /* BasicAnimationContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A4138E1A2E2A96009E0333 /* BasicAnimationContorller.m */; };
 		E6A413941A2E2B09009E0333 /* AdvancedAnimationContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A413931A2E2B09009E0333 /* AdvancedAnimationContorller.m */; };
 		E6AB46EF1A2E170F00B0DDB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AB46EE1A2E170F00B0DDB6 /* Foundation.framework */; };
@@ -76,6 +79,10 @@
 		E624A6D51A2FD306001265E7 /* Great Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Great Wall.png"; sourceTree = "<group>"; };
 		E624A6D71A3007A8001265E7 /* CAKeyframeAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationVC.h; sourceTree = "<group>"; };
 		E624A6D81A3007A8001265E7 /* CAKeyframeAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationVC.m; sourceTree = "<group>"; };
+		E634C9E51A30F79C00BC1589 /* SnowAniamtionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowAniamtionVC.h; sourceTree = "<group>"; };
+		E634C9E61A30F79C00BC1589 /* SnowAniamtionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowAniamtionVC.m; sourceTree = "<group>"; };
+		E634C9E91A30F92D00BC1589 /* DazFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFire.png; sourceTree = "<group>"; };
+		E634C9EB1A30F93500BC1589 /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
 		E6A4138D1A2E2A96009E0333 /* BasicAnimationContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationContorller.h; sourceTree = "<group>"; };
 		E6A4138E1A2E2A96009E0333 /* BasicAnimationContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationContorller.m; sourceTree = "<group>"; };
 		E6A413921A2E2B09009E0333 /* AdvancedAnimationContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedAnimationContorller.h; sourceTree = "<group>"; };
@@ -156,6 +163,8 @@
 		E624A6BC1A2E71D0001265E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E634C9EB1A30F93500BC1589 /* DazSmoke.png */,
+				E634C9E91A30F92D00BC1589 /* DazFire.png */,
 				29DBE0FF1A303EC800BB3605 /* Motorcycle.png */,
 				E624A6D51A2FD306001265E7 /* Great Wall.png */,
 				E624A6D31A2FD228001265E7 /* Great Wall.jpg */,
@@ -196,6 +205,15 @@
 			name = CAKeyframeAnimation;
 			sourceTree = "<group>";
 		};
+		E634C9E81A30F7AD00BC1589 /* Snow Aniamtion */ = {
+			isa = PBXGroup;
+			children = (
+				E634C9E51A30F79C00BC1589 /* SnowAniamtionVC.h */,
+				E634C9E61A30F79C00BC1589 /* SnowAniamtionVC.m */,
+			);
+			name = "Snow Aniamtion";
+			sourceTree = "<group>";
+		};
 		E6A413901A2E2A9C009E0333 /* Basic Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +233,7 @@
 		E6A413911A2E2ABD009E0333 /* Advanced Animation */ = {
 			isa = PBXGroup;
 			children = (
+				E634C9E81A30F7AD00BC1589 /* Snow Aniamtion */,
 				292513DF1A30C77A00264F38 /* Auto Layout Animation */,
 				E6A413921A2E2B09009E0333 /* AdvancedAnimationContorller.h */,
 				E6A413931A2E2B09009E0333 /* AdvancedAnimationContorller.m */,
@@ -378,12 +397,14 @@
 				E624A6BE1A2E71E3001265E7 /* OSU-logo.png in Resources */,
 				E624A6D61A2FD306001265E7 /* Great Wall.png in Resources */,
 				E624A6C81A2FAC5D001265E7 /* Change Corner.png in Resources */,
+				E634C9EC1A30F93500BC1589 /* DazSmoke.png in Resources */,
 				E624A6CB1A2FAC5D001265E7 /* Change Size.png in Resources */,
 				E624A6C91A2FAC5D001265E7 /* Change Opacity.png in Resources */,
 				E6AB47071A2E170F00B0DDB6 /* Images.xcassets in Resources */,
 				E6AB46F91A2E170F00B0DDB6 /* InfoPlist.strings in Resources */,
 				E6AB47021A2E170F00B0DDB6 /* Main.storyboard in Resources */,
 				E624A6CC1A2FAC5D001265E7 /* Move Postion.png in Resources */,
+				E634C9EA1A30F92D00BC1589 /* DazFire.png in Resources */,
 				E624A6D41A2FD228001265E7 /* Great Wall.jpg in Resources */,
 				29DBE1001A303EC800BB3605 /* Motorcycle.png in Resources */,
 				E624A6CE1A2FAD24001265E7 /* Change Color.png in Resources */,
@@ -413,6 +434,7 @@
 				E6AB46FB1A2E170F00B0DDB6 /* main.m in Sources */,
 				292513E21A30C7A300264F38 /* AutoLayoutAnimationVC.m in Sources */,
 				E624A6D21A2FD089001265E7 /* ReflectionVC.m in Sources */,
+				E634C9E71A30F79C00BC1589 /* SnowAniamtionVC.m in Sources */,
 				E624A6D91A3007A8001265E7 /* CAKeyframeAnimationVC.m in Sources */,
 				E624A6BB1A2E6AA1001265E7 /* SimpleVC.m in Sources */,
 				E6A4138F1A2E2A96009E0333 /* BasicAnimationContorller.m in Sources */,
