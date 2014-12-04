@@ -10,14 +10,14 @@
 	<string>Core Animation Tutorial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>67D204C2F177939F08E02123C4310043841AB121</key>
+		<key>ABCC36808934CA06C351B135E0F2374D2BBF1B50</key>
 		<string>https://github.com/yajun2014/Core-Animation-Tutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Core Animation Tutorial.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>67D204C2F177939F08E02123C4310043841AB121</key>
+		<key>ABCC36808934CA06C351B135E0F2374D2BBF1B50</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>67D204C2F177939F08E02123C4310043841AB121</string>
+	<string>ABCC36808934CA06C351B135E0F2374D2BBF1B50</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>67D204C2F177939F08E02123C4310043841AB121</string>
+			<string>ABCC36808934CA06C351B135E0F2374D2BBF1B50</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CoreAnimationTutorial</string>
 		</dict>
