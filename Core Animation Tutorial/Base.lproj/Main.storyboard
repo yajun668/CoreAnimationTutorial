@@ -209,7 +209,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Muc-v3-HH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833" y="-485"/>
+            <point key="canvasLocation" x="782" y="-499"/>
         </scene>
         <!--Mutiple Layers Animation-->
         <scene sceneID="wAf-5N-Bd0">
@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQc-at-bEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1342" y="-485"/>
+            <point key="canvasLocation" x="1280" y="-508"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SQx-xJ-zQ2">
@@ -258,10 +258,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Wh1-pB-bs1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ng0-so-fd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1484" y="369"/>
+            <point key="canvasLocation" x="1303" y="1156"/>
         </scene>
         <!--Advanced Animation-->
         <scene sceneID="aYK-JX-Mfm">
@@ -277,9 +278,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jar-eK-8ZD" id="fAb-ob-oh3">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="ybQ-BE-ycq" kind="push" id="tiz-8M-pqH"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -288,12 +286,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Advanced Animation" id="FuF-L5-fd0"/>
+                    <connections>
+                        <segue destination="ybQ-BE-ycq" kind="push" identifier="a0" id="SYs-Hm-oMH"/>
+                        <segue destination="avT-iq-WY7" kind="push" identifier="a1" id="MXI-kZ-rAr"/>
+                        <segue destination="1Ei-xa-koF" kind="push" identifier="a2" id="fud-CU-4OD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7F-vb-Lg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="820" y="399"/>
         </scene>
-        <!--View Controller-->
+        <!--Auto Layout Animation-->
         <scene sceneID="bW7-dD-5Ld">
             <objects>
                 <viewController id="ybQ-BE-ycq" sceneMemberID="viewController">
@@ -304,20 +307,13 @@
                     <view key="view" contentMode="scaleToFill" id="vVh-pY-fLR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="dddfas" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-BG-vga">
-                                <rect key="frame" x="95" y="235" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xvr-Gy-SOF"/>
+                    <navigationItem key="navigationItem" title="Auto Layout Animation" id="xvr-Gy-SOF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gX-l3-oer" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1250" y="405"/>
+            <point key="canvasLocation" x="1236" y="399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5hc-Sj-Z2l">
@@ -343,7 +339,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcd-JE-Fbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="1285"/>
+            <point key="canvasLocation" x="820" y="1169"/>
         </scene>
         <!--Reflecton-->
         <scene sceneID="ufC-wZ-h7g">

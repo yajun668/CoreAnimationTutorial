@@ -10,6 +10,9 @@
 
 @interface AdvancedAnimationContorller ()
 
+@property (strong,nonatomic) NSMutableArray *AdvancedAnimationList;
+@property (strong,nonatomic) NSMutableArray *detailAdvancedAnimationList;
+
 @end
 
 @implementation AdvancedAnimationContorller
@@ -17,11 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+
+    self.AdvancedAnimationList = [NSMutableArray arrayWithCapacity:5];
+    self.detailAdvancedAnimationList = [NSMutableArray arrayWithCapacity:5];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSArray *myArray =@[@"Auto Layout Animation",@"Implicit Animation",@"Reflection",@"CAKeyframeAnimation",@"Mutiple Layers Animation"];
+    NSArray *myDetailArray =@[@"Rotate,Scale,Move and Combine Animation",@"Change position, opacity,color,size and corner",@"Show Great Wall reflection",@"Arbitrary path Animation for motorcycle",@"sub"];
+    
+    self.AdvancedAnimationList = [NSMutableArray arrayWithArray:myArray];
+    self.detailAdvancedAnimationList = [NSMutableArray arrayWithArray:myDetailArray];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,25 +40,51 @@
 
 #pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
+
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 5;
+
+    return self.AdvancedAnimationList.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"advancedAnimation" forIndexPath:indexPath];
     
-    cell.textLabel.text=@"advancedAnimation";
-    
+    cell.textLabel.text= [self.AdvancedAnimationList objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text=[self.detailAdvancedAnimationList objectAtIndex:indexPath.row];
     return cell;
+    
 }
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row==0) {
+        
+        [self performSegueWithIdentifier:@"a0" sender:self];
+        
+    }
+    else if (indexPath.row==1)
+        
+    {
+        [self performSegueWithIdentifier:@"a1" sender:self];
+    }
+    
+    else if (indexPath.row==2)
+        
+    {
+        [self performSegueWithIdentifier:@"a2" sender:self];
+    }
+    
+    
+}
+
+
+
+
 
 /*
 // Override to support conditional editing of the table view.
