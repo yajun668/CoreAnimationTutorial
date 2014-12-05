@@ -69,8 +69,6 @@
 		29DBE1021A3046DD00BB3605 /* MutipleLayersAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutipleLayersAnimationVC.h; sourceTree = "<group>"; };
 		29DBE1031A3046DD00BB3605 /* MutipleLayersAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutipleLayersAnimationVC.m; sourceTree = "<group>"; };
 		E624A6B11A2E641C001265E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E624A6B51A2E668E001265E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/AnchorPointPic.h; sourceTree = "<group>"; };
-		E624A6B71A2E668E001265E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/AnchorPointPic.m; sourceTree = "<group>"; };
 		E624A6B91A2E6AA1001265E7 /* SimpleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVC.h; sourceTree = "<group>"; };
 		E624A6BA1A2E6AA1001265E7 /* SimpleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleVC.m; sourceTree = "<group>"; };
 		E624A6BD1A2E71E3001265E7 /* OSU-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OSU-logo.png"; sourceTree = "<group>"; };
@@ -251,8 +249,6 @@
 				E624A6B81A2E6A48001265E7 /* Simple Animation */,
 				E6A4138D1A2E2A96009E0333 /* BasicAnimationContorller.h */,
 				E6A4138E1A2E2A96009E0333 /* BasicAnimationContorller.m */,
-				E624A6B41A2E668E001265E7 /* AnchorPointPic.h */,
-				E624A6B61A2E668E001265E7 /* AnchorPointPic.m */,
 			);
 			name = "Basic Animation";
 			sourceTree = "<group>";
@@ -496,22 +492,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E624A6B41A2E668E001265E7 /* AnchorPointPic.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E624A6B51A2E668E001265E7 /* Base */,
-			);
-			name = AnchorPointPic.h;
-			sourceTree = "<group>";
-		};
-		E624A6B61A2E668E001265E7 /* AnchorPointPic.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E624A6B71A2E668E001265E7 /* Base */,
-			);
-			name = AnchorPointPic.m;
-			sourceTree = "<group>";
-		};
 		E6AB46F71A2E170F00B0DDB6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
