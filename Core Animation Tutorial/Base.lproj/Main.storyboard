@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wdP-kC-8Mr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wdP-kC-8Mr">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
@@ -306,7 +306,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7F-vb-Lg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349" y="480"/>
+            <point key="canvasLocation" x="-317" y="474"/>
         </scene>
         <!--Snow Aniamtion-->
         <scene sceneID="5hc-Sj-Z2l">
@@ -395,7 +395,7 @@
         <scene sceneID="GDI-xZ-NJM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Ai-zO-Vnk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Basic Animation" id="J0u-es-BPY"/>
+                    <tabBarItem key="tabBarItem" title="Basic Animation" image="circle.png" id="J0u-es-BPY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cdi-nx-B8C">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -408,13 +408,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Gc-Kz-0PA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-740" y="-412"/>
+            <point key="canvasLocation" x="-703" y="-398"/>
         </scene>
         <!--Advanced Animation-->
         <scene sceneID="v2S-ed-lzb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="syD-RR-8ja" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Advanced Animation" id="BsD-Dg-4r9"/>
+                    <tabBarItem key="tabBarItem" title="Advanced Animation" image="heartStar.png" id="BsD-Dg-4r9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cmS-dB-hoy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -436,6 +436,8 @@
         <image name="Change Opacity.png" width="184" height="39"/>
         <image name="Change Size.png" width="146" height="39"/>
         <image name="Move Postion.png" width="164" height="38"/>
+        <image name="circle.png" width="32" height="32"/>
+        <image name="heartStar.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

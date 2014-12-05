@@ -54,11 +54,16 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"advancedAnimation" forIndexPath:indexPath];
     
     cell.textLabel.text= [self.AdvancedAnimationList objectAtIndex:indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:20.0];
     cell.detailTextLabel.text=[self.detailAdvancedAnimationList objectAtIndex:indexPath.row];
     return cell;
     
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 65;
+}
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     

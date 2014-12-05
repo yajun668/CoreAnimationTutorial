@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29635D5F1A3182E800E1CB71 /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29635D5E1A3182E800E1CB71 /* panda.jpg */; };
 		29DBE1001A303EC800BB3605 /* Motorcycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DBE0FF1A303EC800BB3605 /* Motorcycle.png */; };
 		29DBE1041A3046DD00BB3605 /* MutipleLayersAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DBE1031A3046DD00BB3605 /* MutipleLayersAnimationVC.m */; };
 		E624A6B31A2E64CE001265E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E624A6B11A2E641C001265E7 /* QuartzCore.framework */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29635D5E1A3182E800E1CB71 /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
 		29DBE0FF1A303EC800BB3605 /* Motorcycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Motorcycle.png; sourceTree = "<group>"; };
 		29DBE1021A3046DD00BB3605 /* MutipleLayersAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutipleLayersAnimationVC.h; sourceTree = "<group>"; };
 		29DBE1031A3046DD00BB3605 /* MutipleLayersAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutipleLayersAnimationVC.m; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				E6300B5E1A315CE300DF663E /* guess.jpg */,
+				29635D5E1A3182E800E1CB71 /* panda.jpg */,
 				E6300B581A315CDB00DF663E /* p3.jpg */,
 				E6300B591A315CDB00DF663E /* p7.jpg */,
 				E6300B5A1A315CDB00DF663E /* p8.jpg */,
@@ -420,6 +423,7 @@
 			files = (
 				E6300B5C1A315CDB00DF663E /* p7.jpg in Resources */,
 				E6300B401A310A8900DF663E /* circle.png in Resources */,
+				29635D5F1A3182E800E1CB71 /* panda.jpg in Resources */,
 				E624A6BE1A2E71E3001265E7 /* OSU-logo.png in Resources */,
 				E6300B571A313E8D00DF663E /* snow.png in Resources */,
 				E6300B421A310ED200DF663E /* wihitehouse.png in Resources */,
