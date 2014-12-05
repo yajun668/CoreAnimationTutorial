@@ -76,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rD6-NE-0pF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="-1271"/>
+            <point key="canvasLocation" x="-703" y="-1253"/>
         </scene>
         <!-- Implicit Animation-->
         <scene sceneID="flO-0q-97X">
@@ -161,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y2g-HI-B5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="513" y="-1271"/>
+            <point key="canvasLocation" x="-308" y="-1253"/>
         </scene>
         <!--Basic Animation-->
         <scene sceneID="Xjc-zk-u7w">
@@ -209,7 +209,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Muc-v3-HH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="782" y="-499"/>
+            <point key="canvasLocation" x="-308" y="-412"/>
         </scene>
         <!--Mutiple Layers Animation-->
         <scene sceneID="wAf-5N-Bd0">
@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQc-at-bEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1280" y="-508"/>
+            <point key="canvasLocation" x="226" y="-412"/>
         </scene>
         <!--Celebration AnimationVC-->
         <scene sceneID="SQx-xJ-zQ2">
@@ -261,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ng0-so-fd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1303" y="1156"/>
+            <point key="canvasLocation" x="96" y="488"/>
         </scene>
         <!--Advanced Animation-->
         <scene sceneID="aYK-JX-Mfm">
@@ -300,33 +300,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Advanced Animation" id="FuF-L5-fd0"/>
                     <connections>
-                        <segue destination="ybQ-BE-ycq" kind="push" identifier="a0" id="SYs-Hm-oMH"/>
                         <segue destination="avT-iq-WY7" kind="push" identifier="a1" id="MXI-kZ-rAr"/>
                         <segue destination="1Ei-xa-koF" kind="push" identifier="a2" id="fud-CU-4OD"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7F-vb-Lg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820" y="399"/>
-        </scene>
-        <!--Auto Layout Animation-->
-        <scene sceneID="bW7-dD-5Ld">
-            <objects>
-                <viewController id="ybQ-BE-ycq" customClass="AutoLayoutAnimationVC" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="LRB-B0-Qrn"/>
-                        <viewControllerLayoutGuide type="bottom" id="v7W-IK-i19"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vVh-pY-fLR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Auto Layout Animation" id="xvr-Gy-SOF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7gX-l3-oer" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1236" y="399"/>
+            <point key="canvasLocation" x="-349" y="480"/>
         </scene>
         <!--Snow Aniamtion-->
         <scene sceneID="5hc-Sj-Z2l">
@@ -352,7 +332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcd-JE-Fbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820" y="1169"/>
+            <point key="canvasLocation" x="-324" y="1249"/>
         </scene>
         <!--Reflecton-->
         <scene sceneID="ufC-wZ-h7g">
@@ -371,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="-1271"/>
+            <point key="canvasLocation" x="96" y="-1253"/>
         </scene>
         <!--CAKeyframeAnimation-->
         <scene sceneID="389-dv-PTO">
@@ -390,7 +370,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oji-F0-t5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="-1266"/>
+            <point key="canvasLocation" x="510" y="-1253"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DQh-6e-CG8">
@@ -409,7 +389,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cuz-eb-41G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-186" y="-67"/>
+            <point key="canvasLocation" x="-1166" y="-64"/>
         </scene>
         <!--Basic Animation-->
         <scene sceneID="GDI-xZ-NJM">
@@ -428,7 +408,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Gc-Kz-0PA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323" y="-465"/>
+            <point key="canvasLocation" x="-740" y="-412"/>
         </scene>
         <!--Advanced Animation-->
         <scene sceneID="v2S-ed-lzb">
@@ -447,7 +427,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VcG-yK-4lL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="431" y="405"/>
+            <point key="canvasLocation" x="-753" y="480"/>
         </scene>
     </scenes>
     <resources>
