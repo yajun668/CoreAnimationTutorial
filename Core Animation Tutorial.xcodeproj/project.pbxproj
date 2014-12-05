@@ -29,6 +29,10 @@
 		E6300B4E1A31364200DF663E /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6300B4D1A31364200DF663E /* gift.png */; };
 		E6300B531A313D1D00DF663E /* snowPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E6300B521A313D1D00DF663E /* snowPoint.png */; };
 		E6300B571A313E8D00DF663E /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = E6300B561A313E8D00DF663E /* snow.png */; };
+		E6300B5B1A315CDB00DF663E /* p3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6300B581A315CDB00DF663E /* p3.jpg */; };
+		E6300B5C1A315CDB00DF663E /* p7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6300B591A315CDB00DF663E /* p7.jpg */; };
+		E6300B5D1A315CDB00DF663E /* p8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6300B5A1A315CDB00DF663E /* p8.jpg */; };
+		E6300B5F1A315CE300DF663E /* guess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6300B5E1A315CE300DF663E /* guess.jpg */; };
 		E634C9E71A30F79C00BC1589 /* SnowAniamtionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E634C9E61A30F79C00BC1589 /* SnowAniamtionVC.m */; };
 		E6A4138F1A2E2A96009E0333 /* BasicAnimationContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A4138E1A2E2A96009E0333 /* BasicAnimationContorller.m */; };
 		E6A413941A2E2B09009E0333 /* AdvancedAnimationContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A413931A2E2B09009E0333 /* AdvancedAnimationContorller.m */; };
@@ -89,6 +93,10 @@
 		E6300B4F1A31393A00DF663E /* CelebrationAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebrationAnimationVC.h; sourceTree = "<group>"; };
 		E6300B521A313D1D00DF663E /* snowPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowPoint.png; sourceTree = "<group>"; };
 		E6300B561A313E8D00DF663E /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		E6300B581A315CDB00DF663E /* p3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpg; sourceTree = "<group>"; };
+		E6300B591A315CDB00DF663E /* p7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p7.jpg; sourceTree = "<group>"; };
+		E6300B5A1A315CDB00DF663E /* p8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p8.jpg; sourceTree = "<group>"; };
+		E6300B5E1A315CE300DF663E /* guess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guess.jpg; sourceTree = "<group>"; };
 		E634C9E51A30F79C00BC1589 /* SnowAniamtionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowAniamtionVC.h; sourceTree = "<group>"; };
 		E634C9E61A30F79C00BC1589 /* SnowAniamtionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowAniamtionVC.m; sourceTree = "<group>"; };
 		E6A4138D1A2E2A96009E0333 /* BasicAnimationContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationContorller.h; sourceTree = "<group>"; };
@@ -162,6 +170,10 @@
 		E624A6BC1A2E71D0001265E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E6300B5E1A315CE300DF663E /* guess.jpg */,
+				E6300B581A315CDB00DF663E /* p3.jpg */,
+				E6300B591A315CDB00DF663E /* p7.jpg */,
+				E6300B5A1A315CDB00DF663E /* p8.jpg */,
 				E6300B4D1A31364200DF663E /* gift.png */,
 				E6300B561A313E8D00DF663E /* snow.png */,
 				E6300B521A313D1D00DF663E /* snowPoint.png */,
@@ -406,13 +418,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6300B5C1A315CDB00DF663E /* p7.jpg in Resources */,
 				E6300B401A310A8900DF663E /* circle.png in Resources */,
 				E624A6BE1A2E71E3001265E7 /* OSU-logo.png in Resources */,
 				E6300B571A313E8D00DF663E /* snow.png in Resources */,
 				E6300B421A310ED200DF663E /* wihitehouse.png in Resources */,
+				E6300B5D1A315CDB00DF663E /* p8.jpg in Resources */,
 				E624A6D61A2FD306001265E7 /* Great Wall.png in Resources */,
 				E624A6C81A2FAC5D001265E7 /* Change Corner.png in Resources */,
 				E6300B4E1A31364200DF663E /* gift.png in Resources */,
+				E6300B5F1A315CE300DF663E /* guess.jpg in Resources */,
 				E6300B461A31128E00DF663E /* Chrismas.png in Resources */,
 				E624A6CB1A2FAC5D001265E7 /* Change Size.png in Resources */,
 				E624A6C91A2FAC5D001265E7 /* Change Opacity.png in Resources */,
@@ -422,6 +437,7 @@
 				E624A6CC1A2FAC5D001265E7 /* Move Postion.png in Resources */,
 				29DBE1001A303EC800BB3605 /* Motorcycle.png in Resources */,
 				E6300B3E1A310A8900DF663E /* heartStar.png in Resources */,
+				E6300B5B1A315CDB00DF663E /* p3.jpg in Resources */,
 				E624A6CE1A2FAD24001265E7 /* Change Color.png in Resources */,
 				E6300B531A313D1D00DF663E /* snowPoint.png in Resources */,
 			);
