@@ -24,8 +24,8 @@
     self.AdvancedAnimationList = [NSMutableArray arrayWithCapacity:5];
     self.detailAdvancedAnimationList = [NSMutableArray arrayWithCapacity:5];
     
-    NSArray *myArray =@[@"Auto Layout Animation",@"Implicit Animation",@"Reflection",@"CAKeyframeAnimation",@"Mutiple Layers Animation"];
-    NSArray *myDetailArray =@[@"Rotate,Scale,Move and Combine Animation",@"Change position, opacity,color,size and corner",@"Show Great Wall reflection",@"Arbitrary path Animation for motorcycle",@"sub"];
+    NSArray *myArray =@[@"Snow Animation",@"Merry Christmas Animation"];
+    NSArray *myDetailArray =@[@"Show big snow animation",@"Show fireworks and gift animation for Merry Christmas"];
     
     self.AdvancedAnimationList = [NSMutableArray arrayWithArray:myArray];
     self.detailAdvancedAnimationList = [NSMutableArray arrayWithArray:myDetailArray];
@@ -64,21 +64,16 @@
     
     if (indexPath.row==0) {
         
-        [self performSegueWithIdentifier:@"a0" sender:self];
+        [self performSegueWithIdentifier:@"a1" sender:self];
         
     }
     else if (indexPath.row==1)
         
     {
-        [self performSegueWithIdentifier:@"a1" sender:self];
-    }
-    
-    else if (indexPath.row==2)
-        
-    {
         [self performSegueWithIdentifier:@"a2" sender:self];
     }
     
+
     
 }
 

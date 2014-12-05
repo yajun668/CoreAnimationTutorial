@@ -1,5 +1,5 @@
 //
-//  SnowAniamtionVC.h
+//  CelebrationAnimationVC.h
 //  Core Animation Tutorial
 //
 //  Created by yajun on 12/4/14.
@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 @class CAEmitterLayer;
+@interface CelebrationAnimationVC : ViewController
 
-@interface SnowAniamtionVC : ViewController
+- (IBAction)tapMeforGift:(UIButton *)sender;
 
 @end
