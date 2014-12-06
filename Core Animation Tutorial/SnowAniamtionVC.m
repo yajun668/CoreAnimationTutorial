@@ -41,19 +41,16 @@
     snowCell.velocity		= -10;				// falling down slowly
     snowCell.velocityRange = 10;
     snowCell.yAcceleration = 2;
-    snowCell.emissionRange = 0.5 * M_PI;		// some variation in angle
-    snowCell.spinRange		= 0.25 * M_PI;		// slow spin
+    snowCell.emissionRange = 0.5 * M_PI;
+    snowCell.spinRange		= 0.25 * M_PI;
     
     snowCell.contents		= (id) [[UIImage imageNamed:@"snowPoint.png"] CGImage];
     snowCell.color			= [[UIColor colorWithRed:0.600 green:0.658 blue:0.743 alpha:1.000] CGColor];
     
-    // Make the flakes seem inset in the background
     mySnowLayer.shadowOpacity = 1.0;
     mySnowLayer.shadowRadius  = 0.0;
     mySnowLayer.shadowOffset  = CGSizeMake(0.0, 1.0);
     mySnowLayer.shadowColor   = [[UIColor whiteColor] CGColor];
-    
-    // Add everything to our backing layer below the UIContol defined in the storyboard
     mySnowLayer.emitterCells = [NSArray arrayWithObject: snowCell];
     [self.view.layer addSublayer:mySnowLayer];
     
